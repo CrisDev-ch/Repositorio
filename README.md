@@ -23,7 +23,47 @@ Diseño orientado a escalabilidad
 Migración progresiva de sistemas locales a sistemas en la nube
 
 🏗 Proyectos
-🧾 1️⃣ ERP – Sistema de Inventario (Vanilla JS)
+⚛ 1️⃣ Plataforma Moderna – Next.js + React
+
+🔗 Ver aplicación en producción (Vercel)
+https://veterinaria-crisdev-chs-projects.vercel.app/
+
+📌 Descripción
+
+Proyecto frontend avanzado desarrollado con Next.js (App Router) y React.
+
+Incluye un sistema doble estructurado como CMS personalizado:
+
+Editor de contenido
+
+Página renderizada profesional
+
+Una interfaz genera contenido estructurado y otra lo renderiza dinámicamente con enfoque profesional.
+
+🧠 Arquitectura implementada
+
+Next.js 14+ (App Router)
+
+Renderizado estructurado
+
+Separación por módulos
+
+Manejo de estado
+
+Persistencia progresiva (migrando a Firebase)
+
+Preparado para build estático
+
+Optimización para despliegue en producción (Vercel)
+
+🛠 Stack
+Next.js
+React
+TypeScript
+Firebase (integración progresiva)
+Vercel
+
+🧾 2️⃣ ERP – Sistema de Inventario (Vanilla JS)
 
 🔗 Ver aplicación en producción
 https://crisdev-ch.github.io/ERP/webApp/index.html
@@ -58,7 +98,7 @@ GitHub Pages (Deploy estático)
 
 Demostrar dominio de fundamentos sin depender de frameworks.
 
-🖥 2️⃣ ERP Modular – Panel Administrativo + Vista Pública
+🖥 3️⃣ ERP Modular – Panel Administrativo + Vista Pública
 
 🔗 Ver aplicación en producción
 https://crisdev-ch.github.io/vistaERP/vistaERP/index.html
@@ -99,7 +139,7 @@ GitHub Pages
 
 Transición desde aplicación simple a arquitectura más cercana a producción real.
 
-📱 3️⃣ Aplicación Híbrida – Ionic + Angular + Firebase (Actualmente en desarrollo)
+📱 4️⃣ Aplicación Híbrida – Ionic + Angular + Firebase (Actualmente en desarrollo)
 
 🔗 Repositorio GitHub
 https://github.com/CrisDev-ch/turnosVig
@@ -147,46 +187,6 @@ Firestore
 🎯 Objetivo Técnico
 
 Demostrar integración real con backend y manejo de datos persistentes en la nube.
-
-⚛ 4️⃣ Plataforma Moderna – Next.js + React
-
-🔗 Ver aplicación en producción (Vercel)
-https://veterinaria-crisdev-chs-projects.vercel.app/
-
-📌 Descripción
-
-Proyecto frontend avanzado desarrollado con Next.js (App Router) y React.
-
-Incluye un sistema doble estructurado como CMS personalizado:
-
-Editor de contenido
-
-Página renderizada profesional
-
-Una interfaz genera contenido estructurado y otra lo renderiza dinámicamente con enfoque profesional.
-
-🧠 Arquitectura implementada
-
-Next.js 14+ (App Router)
-
-Renderizado estructurado
-
-Separación por módulos
-
-Manejo de estado
-
-Persistencia progresiva (migrando a Firebase)
-
-Preparado para build estático
-
-Optimización para despliegue en producción (Vercel)
-
-🛠 Stack
-Next.js
-React
-TypeScript
-Firebase (integración progresiva)
-Vercel
 
 📊 Stack Tecnológico Consolidado
 Frontend
