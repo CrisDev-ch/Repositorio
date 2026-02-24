@@ -99,7 +99,7 @@ GitHub Pages
 
 Transición desde aplicación simple a arquitectura más cercana a producción real.
 
-📱 3️⃣ Aplicación Híbrida – Ionic + Angular + Firebase
+📱 3️⃣ Aplicación Híbrida – Ionic + Angular + Firebase (Actualmente en desarrollo)
 
 🔗 Repositorio GitHub
 https://github.com/CrisDev-ch/turnosVig
