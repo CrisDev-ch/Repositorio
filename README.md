@@ -182,81 +182,32 @@ Preparado para build estático
 Optimización para despliegue en producción (Vercel)
 
 🛠 Stack
-
 Next.js
-
 React
-
 TypeScript
-
 Firebase (integración progresiva)
-
 Vercel
 
 📊 Stack Tecnológico Consolidado
 Frontend
 
 HTML5
-
 CSS3
-
 JavaScript
-
 TypeScript
-
 React
-
 Next.js
-
 Angular
-
 Ionic
-
 Backend / Persistencia
-
 Firebase Authentication
-
 Firestore
-
 LocalStorage (simulación de base de datos)
-
 DevOps / Deploy
-
 Git
-
 GitHub
-
 GitHub Pages
-
 Vercel
-
-📈 Evolución Profesional
-
-Desarrollo con JavaScript puro
-
-Separación de vistas y arquitectura modular
-
-Introducción a frameworks (Angular / Ionic)
-
-Integración con backend real (Firebase)
-
-Desarrollo con Next.js y renderizado moderno
-
-Enfoque en producción y escalabilidad
-
-🧠 Enfoque Profesional
-
-Arquitectura clara y estructurada
-
-Pensamiento orientado a escalabilidad
-
-Separación de responsabilidades
-
-Evolución constante del stack
-
-Optimización para entornos reales
-
-Diseño técnico antes que improvisación
 
 👨‍💻 Sobre mí
 
