@@ -261,3 +261,7 @@ Diseño técnico antes que improvisación
 👨‍💻 Sobre mí
 
 Desarrollador enfocado en construir sistemas reales, estructurados y escalables, evolucionando desde fundamentos sólidos hasta frameworks modernos y arquitectura de producción.
+
+|||| CONTACTO ||||
+Celular: +56 933465843
+Correo: crisroblesherrera99@gmail.com
