@@ -1,78 +1,91 @@
-Bienvenido a mi colección de proyectos enfocados en desarrollo web, sistemas ERP y soluciones orientadas al área veterinaria.
+🚀 CrisDev — Software Developer Portfolio
 
-Este repositorio/documentación reúne distintos sistemas desarrollados con HTML, JavaScript, Ionic, Angular, Firebase, Next.js y React, aplicando arquitectura modular, persistencia de datos y enfoque profesional en UI/UX.
+Desarrollador enfocado en arquitectura web moderna, sistemas escalables y separación estructurada de responsabilidades.
 
-🧾 1️⃣ ERP – Sistema de Inventario (WebApp)
+Este documento presenta los proyectos más relevantes desarrollados hasta la fecha, organizados por nivel de complejidad y stack tecnológico.
 
-🔗 Demo en producción:
-👉 https://crisdev-ch.github.io/ERP/webApp/index.html
+🧩 Visión General Técnica
+
+A lo largo de estos proyectos he trabajado con:
+
+Arquitectura modular
+
+Separación frontend / backend
+
+Simulación de entornos reales de producción
+
+Integración con servicios cloud
+
+Renderizado dinámico
+
+Diseño orientado a escalabilidad
+
+Migración progresiva de sistemas locales a sistemas en la nube
+
+🏗 Proyectos
+🧾 1️⃣ ERP – Sistema de Inventario (Vanilla JS)
+
+🔗 Ver aplicación en producción
+https://crisdev-ch.github.io/ERP/webApp/index.html
 
 📌 Descripción
 
-Sistema ERP enfocado exclusivamente en la gestión de inventario, permitiendo administrar productos de manera estructurada.
+Sistema ERP enfocado en la gestión de inventario desarrollado sin frameworks, utilizando JavaScript puro para reforzar bases sólidas de lógica y estructura.
 
 ⚙️ Funcionalidades
 
-Crear productos
+CRUD completo de productos
 
-Editar productos
+Gestión de stock
 
-Eliminar productos
+Persistencia mediante localStorage
 
-Control de stock
+Estructura modular
 
-Visualización estructurada
+Separación de lógica y presentación
 
-Persistencia en navegador (localStorage)
-
-Interfaz simple y funcional
-
-🛠 Tecnologías utilizadas
+🛠 Stack
 
 HTML5
 
 CSS3
 
-JavaScript Vanilla
+JavaScript (Vanilla)
 
-GitHub Pages (Deploy)
+GitHub Pages (Deploy estático)
 
-🖥 2️⃣ ERP – Sistema Doble (Presentación + Publicador)
+🎯 Objetivo Técnico
 
-🔗 Demo en producción:
-👉 https://crisdev-ch.github.io/vistaERP/vistaERP/index.html
+Demostrar dominio de fundamentos sin depender de frameworks.
+
+🖥 2️⃣ ERP Modular – Panel Administrativo + Vista Pública
+
+🔗 Ver aplicación en producción
+https://crisdev-ch.github.io/vistaERP/vistaERP/index.html
 
 📌 Descripción
 
-Proyecto dividido en dos partes:
+Proyecto estructurado en dos capas:
 
-Panel de gestión (Editor/Publicador)
+Panel administrativo (gestión interna)
 
-Vista pública (Presentación de productos)
+Vista pública (renderizado de datos)
 
-Permite administrar productos desde una interfaz interna y visualizarlos en una interfaz separada tipo catálogo.
+Simula un entorno real donde el administrador gestiona información y el usuario final consume contenido en una interfaz separada.
 
-🎯 Objetivo del proyecto
+🧠 Conceptos aplicados
 
-Simular la separación entre:
+Separación de responsabilidades
 
-🔒 Panel administrativo
+Arquitectura cliente / administrador
 
-🌐 Vista cliente
+Modularización de componentes
 
-⚙️ Funcionalidades
+Persistencia estructurada
 
-CRUD de productos
+Simulación de flujo de producción real
 
-Vista pública separada
-
-Arquitectura modular
-
-Comunicación mediante almacenamiento local
-
-Simulación de entorno real cliente/administrador
-
-🛠 Tecnologías utilizadas
+🛠 Stack
 
 HTML
 
@@ -82,153 +95,169 @@ JavaScript
 
 GitHub Pages
 
-📱 3️⃣ Sistema de Turnos – Ionic + Angular + Firebase
+🎯 Nivel del proyecto
 
-🔗 Repositorio:
-👉 https://github.com/CrisDev-ch/turnosVig
+Transición desde aplicación simple a arquitectura más cercana a producción real.
+
+📱 3️⃣ Aplicación Híbrida – Ionic + Angular + Firebase
+
+🔗 Repositorio GitHub
+https://github.com/CrisDev-ch/turnosVig
 
 📌 Descripción
 
-Aplicación desarrollada con Ionic + Angular conectada a Firebase.
+Aplicación híbrida desarrollada con Ionic y Angular, conectada a Firebase para persistencia en la nube.
 
-Sistema orientado a la gestión de turnos, con backend en la nube y sincronización en tiempo real.
+En este proyecto se implementa:
+
+Arquitectura basada en componentes
+
+Conexión real con backend (Firebase)
+
+Autenticación
+
+Base de datos en la nube
+
+Escalabilidad
 
 ⚙️ Funcionalidades
 
 Registro de usuarios
 
-Agendamiento de turnos
+Gestión de turnos
 
-Persistencia en Firebase
+Persistencia en Firestore
 
-Arquitectura basada en componentes Angular
+Integración frontend-backend real
 
-Preparado para escalabilidad
+Estructura preparada para producción
 
-🛠 Tecnologías utilizadas
+🛠 Stack
 
 Ionic
 
 Angular
 
+TypeScript
+
 Firebase Authentication
 
-Firestore Database
+Firestore
 
-🐾 4️⃣ Plataforma Web Veterinaria – Next.js + React
+🎯 Objetivo Técnico
 
-🔗 Demo en producción:
-👉 https://veterinaria-crisdev-chs-projects.vercel.app/
+Demostrar integración real con backend y manejo de datos persistentes en la nube.
+
+⚛ 4️⃣ Plataforma Moderna – Next.js + React
+
+🔗 Ver aplicación en producción (Vercel)
+https://veterinaria-crisdev-chs-projects.vercel.app/
 
 📌 Descripción
 
-Proyecto frontend completo orientado al área veterinaria.
+Proyecto frontend avanzado desarrollado con Next.js (App Router) y React.
 
-Incluye:
+Incluye un sistema doble estructurado como CMS personalizado:
 
-Sitio web profesional tipo clínica veterinaria
+Editor de contenido
 
-Sección de noticias
+Página renderizada profesional
 
-Sistema doble: editor + renderizado profesional
+Una interfaz genera contenido estructurado y otra lo renderiza dinámicamente con enfoque profesional.
 
-Creación de prototipos de páginas web mediante plantillas
+🧠 Arquitectura implementada
 
-📰 Sistema de Noticias (Editor + Renderizado)
+Next.js 14+ (App Router)
 
-El proyecto incluye dos módulos principales:
+Renderizado estructurado
 
-✏️ Editor (Creador de páginas)
+Separación por módulos
 
-Permite:
+Manejo de estado
 
-Crear publicaciones
+Persistencia progresiva (migrando a Firebase)
 
-Crear plantillas
+Preparado para build estático
 
-Crear desde plantilla
+Optimización para despliegue en producción (Vercel)
 
-Vista previa
+🛠 Stack
 
-Listado de publicaciones
-
-Funciona como un constructor visual de páginas web.
-
-🌐 Página Renderizada Profesional
-
-Renderiza el contenido creado en el editor
-
-Estructura limpia
-
-Diseño profesional
-
-Preparado para producción
-
-🎯 Objetivo del sistema doble
-
-Simular:
-
-🛠 CMS personalizado
-
-📰 Sistema de noticias dinámico
-
-🧩 Constructor web por plantillas
-
-🏥 Web orientada al rubro veterinario
-
-🛠 Tecnologías utilizadas
-
-Next.js 14+
+Next.js
 
 React
 
 TypeScript
 
-Firebase (en integración progresiva)
+Firebase (integración progresiva)
 
-Vercel (Deploy)
+Vercel
 
-📈 Enfoque Técnico
+📊 Stack Tecnológico Consolidado
+Frontend
 
-Mis proyectos se enfocan en:
+HTML5
 
-Arquitectura modular
+CSS3
+
+JavaScript
+
+TypeScript
+
+React
+
+Next.js
+
+Angular
+
+Ionic
+
+Backend / Persistencia
+
+Firebase Authentication
+
+Firestore
+
+LocalStorage (simulación de base de datos)
+
+DevOps / Deploy
+
+Git
+
+GitHub
+
+GitHub Pages
+
+Vercel
+
+📈 Evolución Profesional
+
+Desarrollo con JavaScript puro
+
+Separación de vistas y arquitectura modular
+
+Introducción a frameworks (Angular / Ionic)
+
+Integración con backend real (Firebase)
+
+Desarrollo con Next.js y renderizado moderno
+
+Enfoque en producción y escalabilidad
+
+🧠 Enfoque Profesional
+
+Arquitectura clara y estructurada
+
+Pensamiento orientado a escalabilidad
 
 Separación de responsabilidades
 
-Simulación de entornos reales
+Evolución constante del stack
 
-Escalabilidad progresiva
+Optimización para entornos reales
 
-Transición desde localStorage → Firebase
+Diseño técnico antes que improvisación
 
-Desarrollo mobile-first
+👨‍💻 Sobre mí
 
-Optimización para producción
-
-🚀 Próximos pasos
-
-Migración completa a Firebase
-
-Autenticación robusta
-
-Dashboard avanzado
-
-Base de datos estructurada
-
-Implementación ERP completo para veterinaria
-
-Sistema de roles (Admin / Usuario)
-
-👨‍💻 Autor
-
-CrisDev
-Desarrollador enfocado en:
-
-Sistemas ERP
-
-Aplicaciones web modernas
-
-Arquitectura en capas
-
-Proyectos orientados al mundo real
+Desarrollador enfocado en construir sistemas reales, estructurados y escalables, evolucionando desde fundamentos sólidos hasta frameworks modernos y arquitectura de producción.
